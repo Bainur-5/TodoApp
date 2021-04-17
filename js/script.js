@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
             if(complete){
                 return prev + `<div  class="card-2 completed">${cardTemplate(title,content,date,id)}</div>`
             }else{
-                return prev + `<div data-aos="fade-up" class='card-2'>${cardTemplate(title,content,date,id)}</div>`
+                return prev + `<div class='card-2'>${cardTemplate(title,content,date,id)}</div>`
             }
         }, '')
 
