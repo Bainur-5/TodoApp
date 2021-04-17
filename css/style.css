@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav */
+
+.nav{
+    display: flex;
+    padding: .5% 2%;
+    justify-content: space-between;
+    background-color: rgb(0, 110, 255);
+    align-items: center;
+}
+
+
+.logo_nav{
+    color: white;
+    font-size: 130%;
+    text-decoration: none;
+}
+.select{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.select h5{
+    margin: 0;
+}
+.form-select{
+    border: 0;
+    padding:  5% 1%;
+    border-radius: 20px;
+    width: 40%;
+}
+.sighnOutBtn{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5% 2%;
+    width: 50%;
+}
+
+/*  */
+.gg_card{
+    height: 100vh;
+}
+.form{
+    text-align: center;
+    margin: 5% auto 5%  auto ;
+    width: 40%;
+    border: 1px solid #f4f9f4;
+    background-color: #f9f6f7;
+    border-radius: 10px;
+    padding: 1% 0;
+}
+
+.card{
+    width: 100%;
+    padding: 1%;
+}
+.title{
+    width: 87%;
+    margin: 1% 1% 1% 1%;
+    height: 4vh;
+    padding: 1% 2%;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.discription{
+    width: 87%;
+    margin: 1%;
+    height: 20vh;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.btn-cont{
+    text-align: start;
+}
+.submitBtn{
+    margin-left: 5%;
+    padding: 2.5% 6%;
+    border-radius: 20px;
+    border: 0px solid gray;
+    background-color: rgb(0, 132, 255);
+    color: white;
+
+}
+/*  */
+
+.container{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.card-2{
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    margin: 4% 1%;
+}
+.card-3{
+    width: 100%;
+    border: 1px solid #f4f9f4;
+    background-color: #f9f6f7;
+    border-radius: 10px;
+    padding: 2% 3%;
+}
+.card-3:hover{
+    box-shadow: 10px 10px 10px blue;
+}
+.card-3 .card-header{
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+
+.card-time{
+    color: gray;
+}
+
+
+.card-footer{
+    display: flex;
+    justify-content: space-between; 
+}
+.btn-danger{
+    width: 30%;
+    border: none;
+    color:white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 2% 4%;
+}
+.btn-success{
+    width: 30%;
+    border: none;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 2% 4%;
+    color: white;
+
+}
+.btn-info{
+    width: 30%;
+    border: none;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 2% 4%;
+    color: white;
+
+
+}
+/*  */
+.shorted{
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+.theme-selector{
+    width: 100% !important;
+}
+.completed{
+    text-decoration: line-through !important;
+}
