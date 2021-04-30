@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
 
         const templete = newTodos.reverse().reduce((prev, {title, content, id, complete, date}) => {
             if(complete){
-                return prev + `<div  class="card-2 completed">${cardTemplate(title,content,date,id)}</div>`
+                return prev + `<div class="card-2 completed">${cardTemplate(title,content,date,id)}</div>`
             }else{
                 return prev + `<div class='card-2'>${cardTemplate(title,content,date,id)}</div>`
             }
@@ -71,7 +71,7 @@ submitBtn.addEventListener('click', e =>{
 function cardTemplate(title, content, time, id) {
     if(content.length >= 350){
         return `
-            <div class="card-3 mb-3" ">
+            <div class="card-3 mb-3">
                 <div class="card-header ">
                     <h4>${title}</h4>
                 </div>
@@ -90,11 +90,11 @@ function cardTemplate(title, content, time, id) {
     `
     }else{
         return`
-            <div class="card-3 mb-3"  form>
+            <div class="card-3 mb-3">
                 <div class="card-header text-center bg-dark text-white">
                     <h4>${title}</h4>
                 </div>
-                <div class="card-b content   ">
+                <div class="card-b content">
                     <p class="text-content">${content}</p>
                     <div class="card-time">
                         <p>${time}</p>

@@ -114,9 +114,14 @@ body{
     background-color: #f9f6f7;
     border-radius: 10px;
     padding: 2% 3%;
+    transition: .5s;
 }
 .card-3:hover{
-    box-shadow: 10px 10px 10px blue;
+    box-shadow: 1px 0px 50px 10px black;
+}
+.card-2:hover {
+    margin-bottom: 10%;
+    padding-bottom: 20px;
 }
 .card-3 .card-header{
     border-bottom: 1px solid gray;
